@@ -1,0 +1,22 @@
+#!/usr/bin/expect
+
+set ip [lrange $argv 0 0]
+
+set timeout 60
+
+spawn ssh -o StrictHostKeyChecking=no root@$ip
+
+## interact with SSH
+expect "*?assword:*"
+send "calvin\r"
+
+expect "*?->*"
+send "reset system1\r"
+
+expect "*?->*"
+send "\r"
+
+expect "*?->*"
+send "exit\r"
+
+

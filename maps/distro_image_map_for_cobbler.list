@@ -1,0 +1,7 @@
+centos	6.3	64	qa-centos6u3-x86_64-striped-drives
+rhel	6.3	64	qa-rhel6u3-x86_64-striped-drives
+ubuntu	precise	64	qa-ubuntu12_04-x86_64-striped-drives
+
+centos-qaimage	6.3	64	qa-centos6u3-x86_64-striped-drives
+rhel-qa-image	6.3	64	qa-rhel6u3-x86_64-striped-drives
+ubuntu-qaimage	precise	64	qa-ubuntu12_04-x86_64-striped-drives
